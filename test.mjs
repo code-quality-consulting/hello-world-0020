@@ -2,11 +2,8 @@
     node
 */
 
+import makeGreeting from "./index.mjs";
 import assert from "assert";
-
-function makeGreeting(name = "world") {
-    return "Hello " + name + "!";
-}
 
 assert.strictEqual(makeGreeting(), "Hello world!");
 assert.strictEqual(makeGreeting("Mike"), "Hello Mike!");
