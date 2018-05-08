@@ -2,7 +2,7 @@
     node
 */
 
-import jslint from "./jslint";
+import jslint from "../jslint";
 import fs from "fs";
 const fileName = process.argv[2];
 
